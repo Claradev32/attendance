@@ -1,0 +1,33 @@
+.sidebar {
+    width: 250px;
+    height: calc(100%);
+    background-color: black;
+    grid-area: 1 / 1 / 2 / 2; 
+    color: #ffffff;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.sidebar ul li {
+  height: 50px;
+  line-height: 46px;
+  width: 230px;
+  text-indent: 20px;
+}
+
+.sidebar ul li:hover {
+    background-color: rgb(51, 47, 47);
+}
+
+.sidebar ul li a{
+    height: 50px;
+    width: 230px;
+}

@@ -1,0 +1,35 @@
+.dashboard {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.users {
+    margin-top: 50px;
+    padding: 50px;
+    overflow-y: scroll;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+.table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.create {
+    margin-bottom: 50px;
+}
